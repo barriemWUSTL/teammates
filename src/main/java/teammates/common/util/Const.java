@@ -220,7 +220,10 @@ public final class Const {
         public static final String MSQ_ERROR_INVALID_WEIGHT =
                 "The weights for the choices of a " + Const.FeedbackQuestionTypeNames.MSQ
                 + " must be valid numbers with precision up to 2 decimal places.";
-        public static final String MSQ_ANSWER_NONE_OF_THE_ABOVE = "None of the above";
+        /**
+         * Special answer of a MSQ question indicating 'None of the above'.
+         */
+        public static final String MSQ_ANSWER_NONE_OF_THE_ABOVE = "";
         public static final String MSQ_ERROR_DUPLICATE_MSQ_OPTION = "The Msq options cannot be duplicate";
 
         // Numscale
@@ -660,6 +663,7 @@ public final class Const {
         public static final String EXCEPTION = "/exception";
         public static final String ERROR_REPORT = "/errorreport";
         public static final String AUTH = "/auth";
+        public static final String AUTH_REGKEY = "/auth/regkey";
         public static final String ACCOUNT = "/account";
         public static final String ACCOUNT_RESET = "/account/reset";
         public static final String ACCOUNT_DOWNGRADE = "/account/downgrade";
